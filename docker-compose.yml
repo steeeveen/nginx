@@ -1,0 +1,7 @@
+node1:
+    build: .
+    ports:
+        - "900:80"
+    environment:
+        DNS_ADDR: https://torrid-heat-8734.firebaseio.com
+        IS_DOCKER: yes
